@@ -1,0 +1,415 @@
+body {
+    /* background-color: pink; */
+    color: rgb(252, 6, 199); 
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(243, 173, 44);
+
+    animation: gradient 10s ease infinite;
+
+}
+
+@keyframes gradient {
+    50% {
+      background: rgb(34, 226, 130);
+      box-shadow: 0 -200px 100px -100px yellowgreen inset;
+    }
+  }
+
+.block {
+    height: 300px;
+    width: 1333px;
+    border-radius: 15px;
+    background: url(vicecity.jpeg);
+    margin-left: 8px;
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .block {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info {
+    margin-left: 40px;
+    transform: translate(0%, 30%);
+    color: black;
+}
+
+@media (max-width: 900px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 0px 2px 1px rgba(0, 0, 255, .2);
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .avatar {
+        text-align: center;
+        display: block;
+    }
+}
+
+.avatar {
+    transition: 1s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 28px;
+    color:rgb(13, 122, 196)
+}
+
+.conteiner {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .conteiner {
+        text-align: center;
+        display: block;
+    }
+}
+
+.Tommy{
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%) translateY(-650%);
+}
+
+@media (max-width: 900px) {
+    .Tommy {
+        text-align: center;
+        display: block;
+    }
+}
+
+.Tommy span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: rgb(66, 113, 245);
+    display: inline-block;
+    transition: all .5s;
+    animation: animate 2s infinite;
+}
+
+.Tommy span:nth-child(1)
+{
+    animation-delay: .1s;
+}
+
+.Tommy span:nth-child(2)
+{
+    animation-delay: .2s;
+}
+
+.Tommy span:nth-child(3)
+{
+    animation-delay: .3s;
+}
+
+.Tommy span:nth-child(4)
+{
+    animation-delay: .4s;
+}
+
+.Tommy span:nth-child(5)
+{
+    animation-delay: .5s;
+}
+
+.Tommy span:nth-child(6)
+{
+    animation-delay: .6s;
+}
+
+.Tommy span:nth-child(7)
+{
+    animation-delay: .7s;
+}
+
+.Tommy span:nth-child(8)
+{
+    animation-delay: .8s;
+}
+
+.Tommy span:nth-child(9)
+{
+    animation-delay: .9s;
+}
+
+.Tommy span:nth-child(10)
+{
+    animation-delay: .9s;
+}
+
+.Tommy span:nth-child(11)
+{
+    animation-delay: .9s;
+}
+
+.Tommy span:nth-child(12)
+{
+    animation-delay: .9s;
+}
+
+.Tommy span:nth-child(13)
+{
+    animation-delay: .9s;
+}
+
+@keyframes animate{
+    0%{
+        color: rgb(255, 0, 212);
+        transform: translateY(0);
+        margin: 0;
+    }
+    25%{
+        color: rgb(174, 245, 117);
+        transform: translateY(-15px)
+    }
+}
+
+.story {
+    max-width: 1300px;
+    margin: 20px;
+    margin-left: auto;
+    border: 3px solid rgb(160, 235, 74);
+    border-radius: 15px;
+}
+
+.story h1 {
+    color: rgb(98, 35, 245);
+    padding-right: 5px;
+    padding: 30px;
+    line-height: 1.5em;
+    
+}
+
+.story h3 {
+    color: rgb(12, 1, 10);
+    padding-right: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 1.5em;
+}
+
+.asshole {
+    padding-left: 950px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .asshole {
+        text-align: center;
+        display: block;
+    }
+}
+
+.cars {
+    margin-bottom: 20px;
+}
+
+.cars h1 {
+    margin-left: 20px;
+    color: rgb(11, 48, 20);
+}
+
+.newest {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+@media (max-width: 900px) {
+    .newest {
+        text-align: center;
+        display: block;
+    }
+}
+
+
+.car_1 {
+    color: rgb(252, 6, 199);
+    padding-right: 5px;
+    font-size: 25px;
+    padding: 100px;
+    line-height: 1.5em;
+}
+
+.oldest {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.car_2 {
+    color: rgb(252, 6, 199);
+    padding-right: 5px;
+    font-size: 25px;
+    padding: 80px;
+    line-height: 1.5em;
+}
+
+.dance {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.car_3 {
+    color: rgb(252, 6, 199);
+    padding-right: 5px;
+    font-size: 25px;
+    padding: 30px;
+    line-height: 1.5em;
+}
+
+.machine {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.car_4 {
+    color: rgb(252, 6, 199);
+    padding-right: 5px;
+    font-size: 25px;
+    padding: 300px;
+    line-height: 1.5em;
+}
+
+.inverted {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 900px) {
+    .inverted {
+        text-align: center;
+        display: block;
+    }
+}
+
+.club {
+    color: rgb(252, 6, 199);
+    font-size: 23px;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.clubimg {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+@media (max-width: 900px) {
+    .clubimg {
+        text-align: center;
+        display: block;
+    }
+}
+
+.cardealer {
+    color: rgb(252, 6, 199);
+    font-size: 23px;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.cardealerimg {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.boats {
+    color: rgb(252, 6, 199);
+    font-size: 23px;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.boatsimg {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.strip {
+    color: rgb(252, 6, 199);
+    font-size: 23px;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.stripimg {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.house {
+    color: rgb(252, 6, 199);
+    font-size: 23px;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.houseimg {
+    border-radius: 15mm;
+    padding: 15px 20px;
+}
+
+.selfie {
+    border-radius: 20px;
+}
+
+.bye {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nice {
+    padding-left: 900px;
+    padding-top: 20px;
+}
+
+.linkinfo {
+    transform: translate(0%, 50%);
+    font-size: 18px;
+}
+
+a {
+    color: rgb(167, 12, 102);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:rgb(92, 182, 243)
+}
+
+.create {
+    text-align: center;
+    color: black;
+}
